@@ -1,4 +1,5 @@
 # blog-node-angular
+<<<<<<< HEAD
 
 A minimal dockerized full-stack blog application demonstrating the **decoupled SPA + API** pattern.
 
@@ -164,3 +165,6 @@ blog-node-angular/
 **Changes to source aren't reflected.** The images are built once. Rebuild with `docker compose up --build`.
 
 **Want to inspect the database.** Run `docker compose exec db mongosh -u $MONGO_USER -p $MONGO_PASSWORD --authenticationDatabase admin`.
+=======
+Dockerized full-stack blog application: Angular frontend, Node.js/Express API, and MongoDB, orchestrated with Docker Compose.
+>>>>>>> 119e8fe630182a4d82e272d8ccf7d008b15d4493
